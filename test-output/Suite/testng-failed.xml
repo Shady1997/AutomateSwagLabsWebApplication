@@ -7,6 +7,7 @@
         <methods>
           <include name="prepareClassProperties"/>
           <include name="login"/>
+          <include name="closeApplication"/>
         </methods>
       </class> <!-- start.Start -->
     </classes>
