@@ -53,7 +53,7 @@ public class Start {
 		finalizeCheckout();
 
 		returnToHomePage();
-		
+
 		logout();
 
 		closeApplication();
@@ -87,7 +87,7 @@ public class Start {
 		Thread.sleep(10000);
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 2)
 	private static void login() throws InterruptedException {
 		login.userName.sendKeys("standard_user");
 		login.userPassword.sendKeys("secret_sauce");
@@ -97,7 +97,7 @@ public class Start {
 		Thread.sleep(10000);
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 3)
 	private static void chooseAllProducts() throws InterruptedException {
 		inventoryPage = new InventoryPage(driver);
 
@@ -129,7 +129,7 @@ public class Start {
 		Thread.sleep(10000);
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 4)
 	private static void clickToPay() throws InterruptedException {
 		inventoryPage.moveToPaymentPage.click();
 
@@ -137,7 +137,7 @@ public class Start {
 		Thread.sleep(10000);
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 5)
 	private static void clickToCheckout() throws InterruptedException {
 		cartPage = new CartPage(driver);
 
@@ -154,7 +154,7 @@ public class Start {
 		Thread.sleep(10000);
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 6)
 	private static void Checkout() throws InterruptedException {
 		checkoutPage = new CheckoutPage(driver);
 
@@ -175,7 +175,7 @@ public class Start {
 		Thread.sleep(10000);
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 7)
 	private static void finalizeCheckout() throws InterruptedException {
 		checkoutFinal = new CheckoutFinal(driver);
 
@@ -185,7 +185,7 @@ public class Start {
 		Thread.sleep(10000);
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 8)
 	private static void returnToHomePage() throws InterruptedException {
 		returnToHomePAge = new ReturnToHomePAge(driver);
 
@@ -199,15 +199,15 @@ public class Start {
 		// wait for 5 sec
 		Thread.sleep(10000);
 	}
-	
-	@Test(priority = 1)
+
+	@Test(priority = 9)
 	private static void logout() throws InterruptedException {
 		sideMenu = new SideMenu(driver);
 
 		sideMenu.sidemenuButton.click();
-		
+
 		Thread.sleep(5000);
-		
+
 		sideMenu.logoutButton.click();
 
 		// wait for 5 sec

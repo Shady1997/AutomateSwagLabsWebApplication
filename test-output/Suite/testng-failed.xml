@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="start.Start">
+      <class name="start.StartWithTestNG">
         <methods>
-          <include name="prepareClassProperties"/>
           <include name="login"/>
           <include name="closeApplication"/>
+          <include name="prepareClassProperties"/>
         </methods>
-      </class> <!-- start.Start -->
+      </class> <!-- start.StartWithTestNG -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
