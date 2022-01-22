@@ -2,56 +2,56 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-09T02:28:30 EET" name="Suite" finished-at="2022-01-09T02:30:13 EET" duration-ms="103782">
+  <suite started-at="2022-01-09T09:50:59 EET" name="Default suite" finished-at="2022-01-09T09:52:04 EET" duration-ms="64724">
     <groups>
     </groups>
-    <test started-at="2022-01-09T02:28:30 EET" name="Test" finished-at="2022-01-09T02:30:13 EET" duration-ms="103782">
+    <test started-at="2022-01-09T09:50:59 EET" name="Default test" finished-at="2022-01-09T09:52:04 EET" duration-ms="64724">
       <class name="start.Start">
-        <test-method is-config="true" signature="prepareClassProperties()[pri:0, instance:start.Start@649bec2e]" started-at="2022-01-09T02:28:30 EET" name="prepareClassProperties" finished-at="2022-01-09T02:28:33 EET" duration-ms="2822" status="PASS">
+        <test-method is-config="true" signature="prepareClassProperties()[pri:0, instance:start.Start@649bec2e]" started-at="2022-01-09T09:50:59 EET" name="prepareClassProperties" finished-at="2022-01-09T09:51:04 EET" duration-ms="5291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareClassProperties -->
-        <test-method signature="startApplication()[pri:1, instance:start.Start@649bec2e]" started-at="2022-01-09T02:28:33 EET" name="startApplication" finished-at="2022-01-09T02:28:46 EET" duration-ms="13172" status="PASS">
+        <test-method signature="startApplication()[pri:1, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:05 EET" name="startApplication" finished-at="2022-01-09T09:51:15 EET" duration-ms="10100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method signature="login()[pri:2, instance:start.Start@649bec2e]" started-at="2022-01-09T02:28:46 EET" name="login" finished-at="2022-01-09T02:28:56 EET" duration-ms="10343" status="PASS">
+        <test-method signature="login()[pri:2, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:15 EET" name="login" finished-at="2022-01-09T09:51:20 EET" duration-ms="5568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="chooseAllProducts()[pri:3, instance:start.Start@649bec2e]" started-at="2022-01-09T02:28:56 EET" name="chooseAllProducts" finished-at="2022-01-09T02:29:06 EET" duration-ms="10373" status="PASS">
+        <test-method signature="chooseAllProducts()[pri:3, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:20 EET" name="chooseAllProducts" finished-at="2022-01-09T09:51:26 EET" duration-ms="5562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseAllProducts -->
-        <test-method signature="clickToPay()[pri:4, instance:start.Start@649bec2e]" started-at="2022-01-09T02:29:06 EET" name="clickToPay" finished-at="2022-01-09T02:29:17 EET" duration-ms="10069" status="PASS">
+        <test-method signature="clickToPay()[pri:4, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:26 EET" name="clickToPay" finished-at="2022-01-09T09:51:31 EET" duration-ms="5120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickToPay -->
-        <test-method signature="clickToCheckout()[pri:5, instance:start.Start@649bec2e]" started-at="2022-01-09T02:29:17 EET" name="clickToCheckout" finished-at="2022-01-09T02:29:27 EET" duration-ms="10091" status="PASS">
+        <test-method signature="clickToCheckout()[pri:5, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:31 EET" name="clickToCheckout" finished-at="2022-01-09T09:51:36 EET" duration-ms="5184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickToCheckout -->
-        <test-method signature="Checkout()[pri:6, instance:start.Start@649bec2e]" started-at="2022-01-09T02:29:27 EET" name="Checkout" finished-at="2022-01-09T02:29:37 EET" duration-ms="10348" status="PASS">
+        <test-method signature="Checkout()[pri:6, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:36 EET" name="Checkout" finished-at="2022-01-09T09:51:42 EET" duration-ms="5568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout -->
-        <test-method signature="finalizeCheckout()[pri:7, instance:start.Start@649bec2e]" started-at="2022-01-09T02:29:37 EET" name="finalizeCheckout" finished-at="2022-01-09T02:29:47 EET" duration-ms="10063" status="PASS">
+        <test-method signature="finalizeCheckout()[pri:7, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:42 EET" name="finalizeCheckout" finished-at="2022-01-09T09:51:47 EET" duration-ms="5097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizeCheckout -->
-        <test-method signature="returnToHomePage()[pri:8, instance:start.Start@649bec2e]" started-at="2022-01-09T02:29:47 EET" name="returnToHomePage" finished-at="2022-01-09T02:29:57 EET" duration-ms="10095" status="PASS">
+        <test-method signature="returnToHomePage()[pri:8, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:47 EET" name="returnToHomePage" finished-at="2022-01-09T09:51:52 EET" duration-ms="5331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnToHomePage -->
-        <test-method signature="logout()[pri:9, instance:start.Start@649bec2e]" started-at="2022-01-09T02:29:57 EET" name="logout" finished-at="2022-01-09T02:30:12 EET" duration-ms="15106" status="PASS">
+        <test-method signature="logout()[pri:9, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:52 EET" name="logout" finished-at="2022-01-09T09:52:02 EET" duration-ms="10139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:start.Start@649bec2e]" started-at="2022-01-09T02:30:12 EET" name="closeApplication" finished-at="2022-01-09T02:30:13 EET" duration-ms="1251" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:start.Start@649bec2e]" started-at="2022-01-09T09:52:02 EET" name="closeApplication" finished-at="2022-01-09T09:52:04 EET" duration-ms="1666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- start.Start -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

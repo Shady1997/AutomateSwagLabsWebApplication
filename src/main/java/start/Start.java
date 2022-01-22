@@ -84,7 +84,7 @@ public class Start {
 		driver.get("https://www.saucedemo.com/");
 
 		// wait for 10 sec
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 
 	@Test(priority = 2)
@@ -94,7 +94,7 @@ public class Start {
 		login.loginButton.click();
 
 		// wait for 5 sec
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 
 	@Test(priority = 3)
@@ -126,7 +126,7 @@ public class Start {
 		js.executeScript("window.scrollBy(0,-1000)", "");
 
 		// wait for 5 sec
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 
 	@Test(priority = 4)
@@ -134,7 +134,7 @@ public class Start {
 		inventoryPage.moveToPaymentPage.click();
 
 		// wait for 5 sec
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 
 	@Test(priority = 5)
@@ -151,7 +151,7 @@ public class Start {
 		js.executeScript("window.scrollBy(0,-1000)", "");
 
 		// wait for 5 sec
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 
 	@Test(priority = 6)
@@ -172,7 +172,7 @@ public class Start {
 		checkoutPage.continueButton.click();
 
 		// wait for 5 sec
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 
 	@Test(priority = 7)
@@ -182,7 +182,7 @@ public class Start {
 		checkoutFinal.finishButton.click();
 
 		// wait for 5 sec
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 
 	@Test(priority = 8)
@@ -197,7 +197,7 @@ public class Start {
 		js.executeScript("window.scrollBy(0,-1000)", "");
 
 		// wait for 5 sec
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 
 	@Test(priority = 9)
@@ -211,7 +211,7 @@ public class Start {
 		sideMenu.logoutButton.click();
 
 		// wait for 5 sec
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 
 	@AfterTest
