@@ -13,13 +13,13 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import pom.CartPage;
-import pom.CheckoutFinal;
-import pom.CheckoutPage;
-import pom.InventoryPage;
-import pom.LoginPage;
-import pom.ReturnToHomePAge;
-import pom.SideMenu;
+import pages.CartPage;
+import pages.CheckoutFinal;
+import pages.CheckoutPage;
+import pages.InventoryPage;
+import pages.LoginPage;
+import pages.ReturnToHomePAge;
+import pages.SideMenu;
 
 public class Start {
 

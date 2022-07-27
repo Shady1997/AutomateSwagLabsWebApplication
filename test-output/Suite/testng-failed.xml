@@ -3,13 +3,21 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="start.StartWithTestNG">
+      <class name="start.Start">
         <methods>
-          <include name="login"/>
-          <include name="closeApplication"/>
+          <include name="clickToPay"/>
+          <include name="chooseAllProducts"/>
+          <include name="clickToCheckout"/>
+          <include name="logout"/>
+          <include name="finalizeCheckout"/>
+          <include name="returnToHomePage"/>
+          <include name="startApplication"/>
           <include name="prepareClassProperties"/>
+          <include name="login"/>
+          <include name="Checkout"/>
+          <include name="closeApplication"/>
         </methods>
-      </class> <!-- start.StartWithTestNG -->
+      </class> <!-- start.Start -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -2,56 +2,74 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-09T09:50:59 EET" name="Default suite" finished-at="2022-01-09T09:52:04 EET" duration-ms="64724">
+  <suite started-at="2022-07-27T09:37:17 EET" name="Swag Labs" finished-at="2022-07-27T09:38:00 EET" duration-ms="43197">
     <groups>
+      <group name="smoke">
+        <method signature="E2E_Testcase001_PurchasingAllProducts.Checkout()[pri:6, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" name="Checkout" class="test_cases.E2E_Testcase001_PurchasingAllProducts"/>
+        <method signature="E2E_Testcase001_PurchasingAllProducts.chooseAllProducts()[pri:3, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" name="chooseAllProducts" class="test_cases.E2E_Testcase001_PurchasingAllProducts"/>
+        <method signature="E2E_Testcase001_PurchasingAllProducts.clickToCheckout()[pri:5, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" name="clickToCheckout" class="test_cases.E2E_Testcase001_PurchasingAllProducts"/>
+        <method signature="E2E_Testcase001_PurchasingAllProducts.clickToPay()[pri:4, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" name="clickToPay" class="test_cases.E2E_Testcase001_PurchasingAllProducts"/>
+        <method signature="E2E_Testcase001_PurchasingAllProducts.finalizeCheckout()[pri:7, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" name="finalizeCheckout" class="test_cases.E2E_Testcase001_PurchasingAllProducts"/>
+        <method signature="E2E_Testcase001_PurchasingAllProducts.logout()[pri:9, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" name="logout" class="test_cases.E2E_Testcase001_PurchasingAllProducts"/>
+        <method signature="E2E_Testcase001_PurchasingAllProducts.returnToHomePage()[pri:8, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" name="returnToHomePage" class="test_cases.E2E_Testcase001_PurchasingAllProducts"/>
+        <method signature="TestBase.login()[pri:2, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" name="login" class="test_cases.TestBase"/>
+        <method signature="TestBase.startApplication()[pri:1, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" name="startApplication" class="test_cases.TestBase"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-01-09T09:50:59 EET" name="Default test" finished-at="2022-01-09T09:52:04 EET" duration-ms="64724">
-      <class name="start.Start">
-        <test-method is-config="true" signature="prepareClassProperties()[pri:0, instance:start.Start@649bec2e]" started-at="2022-01-09T09:50:59 EET" name="prepareClassProperties" finished-at="2022-01-09T09:51:04 EET" duration-ms="5291" status="PASS">
+    <test started-at="2022-07-27T09:37:17 EET" name="Test E2E to Swag Labs Web Application" finished-at="2022-07-27T09:38:00 EET" duration-ms="43197">
+      <class name="test_cases.E2E_Testcase001_PurchasingAllProducts">
+        <test-method is-config="true" signature="prepareClassProperties(java.lang.String)[pri:0, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:17 EET" name="prepareClassProperties" finished-at="2022-07-27T09:37:25 EET" duration-ms="7793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareClassProperties -->
-        <test-method signature="startApplication()[pri:1, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:05 EET" name="startApplication" finished-at="2022-01-09T09:51:15 EET" duration-ms="10100" status="PASS">
+        <test-method signature="startApplication()[pri:1, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:25 EET" name="startApplication" description="Start Swag Labs Web Application" finished-at="2022-07-27T09:37:37 EET" duration-ms="11776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method signature="login()[pri:2, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:15 EET" name="login" finished-at="2022-01-09T09:51:20 EET" duration-ms="5568" status="PASS">
+        <test-method signature="login()[pri:2, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:37 EET" name="login" description="Login to Swag Labs Application" finished-at="2022-07-27T09:37:38 EET" duration-ms="1219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="chooseAllProducts()[pri:3, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:20 EET" name="chooseAllProducts" finished-at="2022-01-09T09:51:26 EET" duration-ms="5562" status="PASS">
+        <test-method signature="chooseAllProducts()[pri:3, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:38 EET" name="chooseAllProducts" description="Choose All Products in Products Page" finished-at="2022-07-27T09:37:41 EET" duration-ms="3270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseAllProducts -->
-        <test-method signature="clickToPay()[pri:4, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:26 EET" name="clickToPay" finished-at="2022-01-09T09:51:31 EET" duration-ms="5120" status="PASS">
+        <test-method signature="clickToPay()[pri:4, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:41 EET" name="clickToPay" description="Choose Pay Button" finished-at="2022-07-27T09:37:44 EET" duration-ms="2443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickToPay -->
-        <test-method signature="clickToCheckout()[pri:5, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:31 EET" name="clickToCheckout" finished-at="2022-01-09T09:51:36 EET" duration-ms="5184" status="PASS">
+        <test-method signature="clickToCheckout()[pri:5, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:44 EET" name="clickToCheckout" description="Click Checkout Button" finished-at="2022-07-27T09:37:46 EET" duration-ms="2222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickToCheckout -->
-        <test-method signature="Checkout()[pri:6, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:36 EET" name="Checkout" finished-at="2022-01-09T09:51:42 EET" duration-ms="5568" status="PASS">
+        <test-method signature="Checkout()[pri:6, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:46 EET" name="Checkout" description="Completer Checkout Operation" finished-at="2022-07-27T09:37:49 EET" duration-ms="2929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout -->
-        <test-method signature="finalizeCheckout()[pri:7, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:42 EET" name="finalizeCheckout" finished-at="2022-01-09T09:51:47 EET" duration-ms="5097" status="PASS">
+        <test-method signature="finalizeCheckout()[pri:7, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:49 EET" name="finalizeCheckout" description="Finalize Payment" finished-at="2022-07-27T09:37:51 EET" duration-ms="2593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizeCheckout -->
-        <test-method signature="returnToHomePage()[pri:8, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:47 EET" name="returnToHomePage" finished-at="2022-01-09T09:51:52 EET" duration-ms="5331" status="PASS">
+        <test-method signature="returnToHomePage()[pri:8, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:51 EET" name="returnToHomePage" description="Return Back to Home Page" finished-at="2022-07-27T09:37:54 EET" duration-ms="2993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnToHomePage -->
-        <test-method signature="logout()[pri:9, instance:start.Start@649bec2e]" started-at="2022-01-09T09:51:52 EET" name="logout" finished-at="2022-01-09T09:52:02 EET" duration-ms="10139" status="PASS">
+        <test-method signature="logout()[pri:9, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:54 EET" name="logout" description="Log out from application" finished-at="2022-07-27T09:37:59 EET" duration-ms="4469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:start.Start@649bec2e]" started-at="2022-01-09T09:52:02 EET" name="closeApplication" finished-at="2022-01-09T09:52:04 EET" duration-ms="1666" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.E2E_Testcase001_PurchasingAllProducts@4d465b11]" started-at="2022-07-27T09:37:59 EET" name="tearDown" finished-at="2022-07-27T09:38:00 EET" duration-ms="1406" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- start.Start -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.E2E_Testcase001_PurchasingAllProducts -->
+    </test> <!-- Test E2E to Swag Labs Web Application -->
+  </suite> <!-- Swag Labs -->
 </testng-results>
